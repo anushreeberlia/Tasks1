@@ -1,0 +1,432 @@
+body {
+  background-color: #ffffff;
+}
+@font-face {
+  font-family: 'metropolisregular';
+  src: url('metropolis.regular-webfont.woff2') format('woff2'),
+    url('metropolis.regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'cera_promedium';
+    src: url('cera_pro_medium-webfont.woff2') format('woff2'),
+         url('cera_pro_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a {
+  color: #3598DB;
+}
+
+progress {
+  display: inline-block;
+  border: none;
+  background: #51C46D;
+  border-radius: 20px;
+  width: 13.75rem;
+  height: 0.625rem;
+}
+
+progress::-moz-progress-bar {
+  background: lightcolor;
+  border-radius: 20px;
+}
+
+progress::-webkit-progress-value {
+  background: #51C46D;
+  border-radius: 20px;
+}
+
+progress::-webkit-progress-bar {
+  background: #F5F5F5;
+  border-radius: 20px;
+}
+
+.font1 {
+  font-family: 'cera_promedium', sans-serif;
+  font-size: 1.2rem;
+}
+
+.font2 {
+  font-family: 'metropolisregular', sans-serif;
+}
+/* Sidebar */
+* {
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar {
+  width: 60px;
+  height: 100%;
+  background-color: #2D3E50;
+  padding: 30px 0 300px 0;
+  background: #2D3E50 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: fixed;
+}
+
+.sidebaricon {
+  color: white;
+  text-align: center;
+}
+
+.wrapper .sidebar ul li {
+  padding: 15px;
+}
+
+/* navbar */
+.navbar {
+  margin-left: 50px;
+}
+
+.heading {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  color: var(--unnamed-color-2d3e50);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #2D3E50;
+  opacity: 1;
+}
+
+.image1 {
+  max-width: 1.56rem;
+  width: 100%;
+  border-radius: 50%;
+  background: transparent url('img/Ellipse 234.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.searchbar1 {
+  margin-left: 22.06rem;
+  margin-right: 22.68rem;
+}
+
+#navbarDropdown {
+  color: #333333;
+}
+
+.search {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: 0% 0% no-repeat padding-box;
+  box-shadow: 1px 3px 10px #00000029;
+  border-radius: 31px;
+  opacity: 1;
+  width: 0.625rem;
+}
+
+.border1 {
+  color: #3598DB;
+  border-radius: 100px;
+  background: var(--unnamed-color-3598db) 0% 0% no-repeat padding-box;
+  background: #3598DB 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: inline-block;
+}
+
+.border2 {
+  color: #3598DB;
+  border-radius: 100px 0 0 100px;
+  background: var(--unnamed-color-3598db) 0% 0% no-repeat padding-box;
+  background: #3598DB 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding-left: 2.18rem;
+  padding-right: 2.18rem;
+}
+
+.searchtext {
+  font-size: 0.875rem;
+}
+
+.border {
+  border-radius: 100px;
+}
+
+.border::placeholder {
+  text-align: center;
+}
+
+.search2 {
+  margin-top: 3.75rem;
+  padding: 0;
+  margin-bottom: 3.75rem;
+}
+
+.sorted {
+  position: absolute;
+  top: 18.75rem;
+  right: 18.75rem;
+}
+
+.sort1 {
+  display: inline-block;
+  margin-right: 1.25rem;
+  font-size: 1rem;
+  color: #979797;
+}
+
+.sort2 {
+  display: inline-block;
+  font-size: 1rem;
+  color: #8BD0FF;
+  margin-right: 1.25rem;
+}
+
+.sort3 {
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 1.25rem;
+}
+
+.fa-icon {
+  color: #3598DB;
+}
+
+.mainbody {
+  padding: 6.25rem 6.25rem 6.25rem 18.75rem;
+}
+
+.heading1 {
+  font-size: 1.875rem;
+  margin-bottom: 1.25rem;
+}
+
+.heada {
+  font-size: 0.875rem;
+}
+
+.fab-icon {
+  font-size: 1rem;
+  display: inline-block;
+  margin-right: 0.625rem;
+}
+
+.icontext {}
+
+.blue {
+  color: #3598DB;
+}
+
+.yellow {
+  color: #FDCA3B;
+}
+
+.violet {
+  color: #8C60EB;
+}
+
+.green {
+  color: #51C46D;
+}
+
+.red {
+  color: #EC4551;
+}
+
+.marks {
+  margin-bottom: 3.125rem;
+}
+
+.mark-text {
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 1.1rem;
+}
+
+.buttons {
+  width: 18.75rem;
+  height: 30%;
+  font-size: 0.9rem;
+  text-align: left;
+  color: white;
+  padding: 0.9rem 1.2rem 0.9rem 1.25rem;
+  margin-right: 1.56rem;
+  margin-bottom: 1.56rem;
+  box-shadow: 1px 3px 10px #00000033;
+}
+
+.button-blue {
+  background-color: #3598DB;
+}
+
+.button-yellow {
+  background-color: #FDCA3B;
+}
+
+.button-violet {
+  background-color: #8C60EB;
+}
+
+.button-green {
+  background-color: #51C46D;
+}
+
+.btn-icon {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+}
+
+.text-inputs {
+  height: 3.75rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  opacity: 1;
+  width: 300px;
+  margin-right: 1.56rem;
+  border: 0;
+  margin-bottom: 1.56rem;
+  text-align: left;
+  padding: 0.9rem 1.25rem 0.9rem 1.25rem;
+}
+.text-input-div
+{
+  position: relative;
+  display: inline-block;
+}
+.text-icon
+{
+position: absolute;
+top: 1.4rem;
+right:5rem;
+font-size: 1.1rem;
+
+}
+.text-icon2
+{
+  position: absolute;
+  top: 1.4rem;
+  font-size: 1.1rem;
+  right: 3rem;
+}
+.card {
+  display: inline-block;
+  width: 18.75rem;
+  height: 22rem;
+  margin-right: 1.56rem;
+  margin-bottom: 1.56rem;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  opacity: 1;
+  padding: 0.9rem 0 0.9rem 0;
+}
+
+.card-body {
+  padding: 0.9rem;
+}
+
+.card-title {
+  font-size: 1.15rem;
+  text-align: left;
+  display: inline-block;
+  margin-right: 8.75rem;
+  color: #333333;
+}
+
+.arrow {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 0.85rem;
+  margin-bottom: 0.625rem;
+}
+
+.assignedtext {
+  color: #979797;
+  margin-right: 5px;
+}
+
+.create-text {
+  font-size: 0.725rem;
+  color: #979797;
+  margin-top: 0.3125rem;
+}
+
+.image {
+  max-width: 2.18rem;
+  width: 100%;
+  border-radius: 50%;
+  background: transparent url('img/Ellipse 234.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-right: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.progress-text1 {
+  color: #979797;
+  font-size: 0.85rem;
+  margin-bottom: 2px;
+}
+
+.progress-text {
+  display: inline-block;
+  color: #51C46D;
+  margin-left: 0.625rem;
+  font-size: 1rem;
+}
+
+.card-footer {
+  margin: 1.25rem 0 0.625rem 0;
+  padding: 0.9rem;
+}
+
+.footer-text {
+  margin: 0 5px 0 5px;
+  font-size: 0.9rem;
+}
+
+@media(max-width: 1600px)
+{
+
+  .mainbody {
+    padding: 6.25rem 3rem 6.25rem 8rem;
+  }
+  .buttons {
+    width: 16.5rem;
+    margin-right: 1rem;
+  }
+  .text-inputs {
+    height: 3.75rem;
+    width: 16.5rem;
+    margin-right: 1rem;
+  }
+  .card {
+    display: inline-block;
+    width: 16.5rem;
+    height: 24rem;
+    margin-right: 1rem;
+
+  }
+  .card-title {
+    font-size: 1.1rem;
+    margin-right: 7rem;
+
+  }.arrow {
+    font-size: 1.3rem;
+  }
+  .container-fluid
+  {
+    overflow: hidden;
+  }
+
+  .searchbar1 {
+    margin-left: 12rem;
+    margin-right: 10rem;
+  }
+  .sorted {
+    right: 3.5rem;
+  }
+
+
+}

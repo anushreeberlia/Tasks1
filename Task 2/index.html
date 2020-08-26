@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Tasks</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <ul>
+          <li><a href="#"><i class="fas fa-bars sidebaricon"></i></a></li>
+          <li><a href="#"><i class="fab fa-discourse sidebaricon"></i></a></li>
+          <li><a href="#"><i class="fas fa-shield-alt sidebaricon"></i></a></li>
+          <li><a href="#"><i class="fas fa-tools sidebaricon"></i></a></li>
+          <li><a href="#"><i class="fas fa-briefcase sidebaricon"></i></a></li>
+
+
+          <li><a href="#"><i class="fas fa-address-card sidebaricon"></i></a></li>
+          <li><a href="#"><i class="fas fa-cog sidebaricon"></i></a></li>
+          <li><a href="#"><i class="fas fa-file-archive sidebaricon"></i></a></li>
+          <li><a href="#"><i class="fas fa-question-circle sidebaricon"></i></a></li>
+          <li><a href="#"><i class="fas fa-phone-volume sidebaricon"></i></a></li>
+        </ul>
+
+      </div>
+
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand heading" href="#">Analysed</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="input-group col-4 searchbar1">
+              <input class="form-control py-2 border-right-0 border" placeholder="Search for jobs" id="example-search-input">
+              <span class="input-group-append">
+                <div class="input-group-text bg-transparent border1"><i class="fa fa-search"></i></div>
+              </span>
+
+            </div>
+
+            <ul class="navbar-nav mr-auto">
+
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><i class="fas fa-envelope fa-icon"></i> <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><i class="fas fa-bell fa-icon"></i> <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><img src="jason1.png" alt="" class="image1"> <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  John Doe
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+
+
+            </ul>
+
+          </div>
+        </nav>
+
+
+        <div class="container-fluid mainbody ">
+          <h1 class="font1 heading1">My Tasks</h1>
+          <a href="#" class="heada">View and manage tasks assigned to you</a>
+
+          <div class="input-group col-4 search2">
+            <div class="input-group-text bg-transparent border2"><i class="fas fa-filter"></i><span class="searchtext font2">All Tasks</span></div>
+            <input class="form-control py-2 border-right-0 border" placeholder="Search for a task" id="example-search-input">
+
+            <span class="input-group-append searchbar2">
+              <div class="input-group-text bg-transparent border1"><i class="fa fa-search"></i></div>
+          </div>
+
+          <div class="sorted">
+
+
+            <h6 class="sort1 font2">Sort by: </h6>
+            <a href="#" class="sort2 font2">Newest first</a>
+            <h6 class="sort3 font2"> Deadline <i class="fas fa-arrow-up sort3"></i></h6>
+            <h6 class="sort3 font2">Progress <i class="fas fa-arrow-up sort3"></i></h6>
+
+          </div>
+
+
+          <div class="marks">
+
+            <i class="fas fa-circle blue fab-icon"></i>
+            <h5 class="mark-text font2">2 New tasks</h5>
+            <i class="fas fa-circle yellow fab-icon"></i>
+            <h5 class="mark-text font2">1 in progress</h5>
+            <i class="fas fa-circle fab-icon violet"></i>
+            <h5 class="mark-text font2">1 ready for review</h5>
+            <i class="fas fa-circle fab-icon green"></i>
+            <h5 class="mark-text font2">2 Approved</h5>
+            <i class="fas fa-circle fab-icon red"></i>
+            <h5 class="mark-text font2">2 Fast approacing deadlines</h5>
+
+          </div>
+
+          <div class="">
+
+            <button class="btn btn-lg buttons font2 button-blue" type="button" name="button">TASKS<i class="fas fa-ellipsis-v btn-icon"></i></button>
+
+            <button class="btn btn-lg buttons font2 button-yellow" type="button" name="button">IN PROGRESS<i class="fas fa-ellipsis-v btn-icon"></i></button>
+            <button class="btn btn-lg buttons font2 button-violet" type="button" name="button">READY FOR REVIEW<i class="fas fa-ellipsis-v btn-icon"></i></button>
+            <button class="btn btn-lg buttons font2 button-green" type="button" name="button">APPROVED<i class="fas fa-ellipsis-v btn-icon"></i></button>
+          </div>
+
+
+          <div class="inputgroup">
+            <div class="text-input-div">
+                <i class="fas fa-check green text-icon"></i><i class="fas fa-times red text-icon2"></i><input type="text" name="" class="text-inputs" placeholder="Add an issue">
+            </div>
+            <div class="text-input-div">
+                <i class="fas fa-check green text-icon"></i><i class="fas fa-times red text-icon2"></i><input type="text" name="" class="text-inputs" placeholder="Add an issue">
+            </div>
+            <div class="text-input-div">
+                <i class="fas fa-check green text-icon"></i><i class="fas fa-times red text-icon2"></i><input type="text" name="" class="text-inputs" placeholder="Add an issue">
+            </div>
+            <div class="text-input-div">
+                <i class="fas fa-check green text-icon"></i><i class="fas fa-times red text-icon2"></i><input type="text" name="" class="text-inputs" placeholder="Add an issue">
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title font2">Task Name</h5>
+              <i class="fas fa-arrow-alt-circle-right arrow blue"></i>
+              <p class="card-text font2"><span class="assignedtext">Assigned by: </span> Name</p>
+              <p class="font2 create-text"> Created on 1-05-2020</p>
+              <img src="jason1.png" class="image" alt="">
+              <img src="jason1.png" class="image" alt="">
+              <img src="jason1.png" class="image" alt="">
+              <p class="progress-text1 font2">Progress</p>
+              <progress max="100" value="40"></progress>
+              <h6 class="progress-text font2">40%</h6>
+              <div class="card-footer text-muted">
+                <i class="fas fa-comment-alt blue"></i><span class="footer-text font2">7</span>
+                <i class="fas fa-bell yellow"></i><span class="footer-text font2">Due in 7 days</span>
+              </div>
+
+            </div>
+          </div>
+          <div class="card">
+
+            <div class="card-body">
+              <h5 class="card-title font2">Task Name</h5>
+              <i class="fas fa-arrow-alt-circle-right arrow yellow"></i>
+              <p class="card-text font2"><span class="assignedtext">Assigned by: </span> Name</p>
+              <p class="font2 create-text"> Created on 1-05-2020</p>
+              <img src="jason1.png" class="image" alt="">
+              <img src="jason1.png" class="image" alt="">
+              <img src="jason1.png" class="image" alt="">
+              <p class="progress-text1 font2">Progress</p>
+              <progress max="100" value="40"></progress>
+              <h6 class="progress-text font2">40%</h6>
+              <div class="card-footer text-muted">
+                <i class="fas fa-comment-alt blue"></i><span class="footer-text font2">7</span>
+                <i class="fas fa-bell yellow"></i><span class="footer-text font2">Due in 7 days</span>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="card ">
+
+            <div class="card-body">
+              <h5 class="card-title font2">Task Name</h5>
+              <i class="fas fa-arrow-alt-circle-right arrow violet"></i>
+              <p class="card-text font2"><span class="assignedtext">Assigned by: </span> Name</p>
+              <p class="font2 create-text"> Created on 1-05-2020</p>
+              <img src="jason1.png" class="image" alt="">
+              <img src="jason1.png" class="image" alt="">
+              <img src="jason1.png" class="image" alt="">
+              <p class="progress-text1 font2">Progress</p>
+              <progress max="100" value="40"></progress>
+              <h6 class="progress-text font2">40%</h6>
+              <div class="card-footer text-muted">
+                <i class="fas fa-comment-alt blue"></i><span class="footer-text font2">7</span>
+                <i class="fas fa-bell yellow"></i><span class="footer-text font2">Due in 7 days</span>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="card">
+
+            <div class="card-body">
+              <h5 class="card-title font2">Task Name</h5>
+              <i class="fas fa-arrow-alt-circle-right arrow green"></i>
+              <p class="card-text font2"><span class="assignedtext">Assigned by: </span> Name</p>
+              <p class="font2 create-text"> Created on 1-05-2020</p>
+              <img src="jason1.png" class="image" alt="">
+              <img src="jason1.png" class="image" alt="">
+              <img src="jason1.png" class="image" alt="">
+              <p class="progress-text1 font2">Progress</p>
+              <progress max="100" value="40"></progress>
+              <h6 class="progress-text font2">40%</h6>
+              <div class="card-footer text-muted">
+                <i class="fas fa-comment-alt blue"></i><span class="footer-text font2">7</span>
+                <i class="fas fa-bell yellow"></i><span class="footer-text font2">Due in 7 days</span>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="card">
+
+            <div class="card-body">
+              <h5 class="card-title font2">Task Name</h5>
+              <i class="fas fa-arrow-alt-circle-right arrow blue"></i>
+              <p class="card-text font2"><span class="assignedtext">Assigned by: </span> Name</p>
+              <p class="font2 create-text"> Created on 1-05-2020</p>
+              <img src="jason1.png" class="image" alt="">
+              <img src="jason1.png" class="image" alt="">
+              <img src="jason1.png" class="image" alt="">
+              <p class="progress-text1 font2">Progress</p>
+              <progress max="100" value="40"></progress>
+              <h6 class="progress-text font2">40%</h6>
+              <div class="card-footer text-muted">
+                <i class="fas fa-comment-alt blue"></i><span class="footer-text font2">7</span>
+                <i class="fas fa-bell yellow"></i><span class="footer-text font2">Due in 7 days</span>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="card">
+
+            <div class="card-body">
+              <h5 class="card-title font2">Task Name</h5>
+              <i class="fas fa-arrow-alt-circle-right arrow yellow"></i>
+              <p class="card-text font2"><span class="assignedtext">Assigned by: </span> Name</p>
+              <p class="font2 create-text"> Created on 1-05-2020</p>
+              <img src="jason1.png" class="image" alt="">
+              <img src="jason1.png" class="image" alt="">
+              <img src="jason1.png" class="image" alt="">
+              <p class="progress-text1 font2">Progress</p>
+              <progress max="100" value="40"></progress>
+              <h6 class="progress-text font2">40%</h6>
+              <div class="card-footer text-muted">
+                <i class="fas fa-comment-alt blue"></i><span class="footer-text font2">7</span>
+                <i class="fas fa-bell yellow"></i><span class="footer-text font2">Due in 7 days</span>
+
+              </div>
+
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+  </body>
+
+</html>
